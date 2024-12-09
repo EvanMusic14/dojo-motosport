@@ -1,0 +1,11 @@
+{
+  "$schema":  "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.3/.schema/devbox.schema.json",
+  "packages": ["nodejs_23@latest"],
+  "shell": {
+    "scripts": {
+      "setup": [
+        "npm install @angular/cli"
+      ]
+    }
+  }
+}
